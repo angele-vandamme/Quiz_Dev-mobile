@@ -11,7 +11,7 @@
       {"id":4, "label":"Virtual Editor"}
      ],
     "indice":
-      {"id":1, "label":"Find the Android Studio tool that lets you create and manage virtual devices to test an app without using a physical phone."}
+      {"id":1, "label":"Indice: Find the Android Studio tool that lets you create and manage virtual devices to test an app without using a physical phone."}
     },
     {
     "id":2, 
@@ -24,7 +24,7 @@
       {"id":4, "label":"testSdkVersion"}
      ],
     "indice":
-      {"id":2, "label":"Find the Gradle setting that specifies the SDK version used for compilation."}
+      {"id":2, "label":"Indice: Find the Gradle setting that specifies the SDK version used for compilation."}
     },
      {
     "id":3, 
@@ -35,7 +35,7 @@
       {"id":2, "label":"False"}
      ],
      "indice":
-      {"id":3, "label":"Can a ScrollView have multiple direct children?"}
+      {"id":3, "label":"Indice: Can a ScrollView have multiple direct children?"}
     },
      {
     "id":4, 
@@ -48,7 +48,7 @@
       {"id":4, "label":"Wrong text"}
      ],
      "indice":
-      {"id":4, "label":"Find the term that describes a type check performed before the program runs, during compilation."}
+      {"id":4, "label":"Indice: Find the term that describes a type check performed before the program runs, during compilation."}
     },
      {
     "id":5, 
@@ -59,7 +59,7 @@
       {"id":2, "label":"False"}
      ],
      "indice":
-      {"id":5, "label":"When an app moves to the background, is it necessarily closed, or can it simply remain in memory, waiting to be used again?"}
+      {"id":5, "label":"Indice: When an app moves to the background, is it necessarily closed, or can it simply remain in memory, waiting to be used again?"}
     },
      {
     "id":6, 
@@ -72,7 +72,7 @@
       {"id":4, "label":"Managed threads"}
      ],
      "indice":
-      {"id":6, "label":"To avoid blocking the user interface, time-consuming tasks should not run on the main thread. Find out where to run them instead."}
+      {"id":6, "label":"Indice: To avoid blocking the user interface, time-consuming tasks should not run on the main thread. Find out where to run them instead."}
     }
   ]
 }
