@@ -1,0 +1,84 @@
+{
+  "questions": [
+    { 
+    "id":1, 
+    "label":"You can create an emulator to simulate the configuration of a particular type of Android device using a tool like", 
+    "correct_answer_id":3, 
+    "answers":[
+      {"id":1, "label":"Theme Editor"},
+      {"id":2, "label":"Android SDK Manager"},
+      {"id":3, "label":"AVD Manager"},
+      {"id":4, "label":"Virtual Editor"}
+     ],
+    "indice":[
+      {"id":1, "label":"Find the Android Studio tool that lets you create and manage virtual devices to test an app without using a physical phone."}
+     ]
+    },
+    {
+    "id":2, 
+    "label":"What parameter specifies the Android API level that Gradle should use to compile your app?", 
+    "correct_answer_id":2, 
+    "answers":[
+      {"id":1, "label":"minSdkVersion"},
+      {"id":2, "label":"compileSdkVersion"},
+      {"id":3, "label":"targetSdkVersion"},
+      {"id":4, "label":"testSdkVersion"}
+     ],
+    "indice":[
+      {"id":2, "label":"Find the Gradle setting that specifies the SDK version used for compilation."}
+     ]
+    },
+     {
+    "id":3, 
+    "label":"True or false? Scroll view can contain only one view, or view group, as a child ?", 
+    "correct_answer_id":1, 
+    "answers":[
+      {"id":1, "label":"True"},
+      {"id":2, "label":"False"}
+     ],
+     "indice":[
+      {"id":3, "label":"Can a ScrollView have multiple direct children?"}
+     ]
+    },
+     {
+    "id":4, 
+    "label":"What phrase means that the compiler validates types while compiling?", 
+    "correct_answer_id":1, 
+    "answers":[
+      {"id":1, "label":"Type safety"},
+      {"id":2, "label":"Data binding"},
+      {"id":3, "label":"Type validation"},
+      {"id":4, "label":"Wrong text"}
+     ],
+     "indice":[
+      {"id":4, "label":"Find the term that describes a type check performed before the program runs, during compilation."}
+     ]
+    },
+     {
+    "id":5, 
+    "label":"True or false? When your app goes into the background, it's not guaranteed to be destroyed. It may only be stopping and waiting for the user to return to it.", 
+    "correct_answer_id":1, 
+    "answers":[
+      {"id":1, "label":"True"},
+      {"id":2, "label":"False"}
+     ],
+     "indice":[
+      {"id":5, "label":"When an app moves to the background, is it necessarily closed, or can it simply remain in memory, waiting to be used again?"}
+     ]
+    },
+     {
+    "id":6, 
+    "label":"To keep the UI running smoothly, use ___ for long-running tasks, such as all database operations.", 
+    "correct_answer_id":1, 
+    "answers":[
+      {"id":1, "label":"Coroutines"},
+      {"id":2, "label":"ViewModels"},
+      {"id":3, "label":"Returns"},
+      {"id":4, "label":"Managed threads"}
+     ],
+     "indice":[
+      {"id":6, "label":"To avoid blocking the user interface, time-consuming tasks should not run on the main thread. Find out where to run them instead."}
+     ]
+    }
+  ]
+}
