@@ -1,0 +1,15 @@
+package com.wordline.quiz.data
+
+import kotlinx.serialization.SerialInfo
+import kotlinx.serialization.SerialName
+
+@kotlinx.serialization.Serializable
+
+data class Question(
+    val id: Int,
+    val label: String,
+    @SerialName("correct_answer_id") val correctAnswerId: Int,
+    val answers: List<Answer>,
+    val indice: Indice? = null
+)
+
