@@ -31,13 +31,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.wordline.quiz.data.Question
-import androidx.compose.material3.TooltipBox
-import androidx.compose.material3.TooltipDefaults
-import androidx.compose.material3.RichTooltip
-import androidx.compose.material3.rememberTooltipState
-import androidx.compose.material3.Text
-import androidx.compose.foundation.layout.Box
-import androidx.compose.material3.TooltipAnchorPosition
 
 @Composable
 fun QuestionScreen(
@@ -86,31 +79,16 @@ fun QuestionScreen(
             }
         }
         currentQuestion.indice?.let { indice ->
-            // Etat du tooltip
-            val tooltipState = rememberTooltipState()
-
-            TooltipBox(
-                positionProvider = TooltipDefaults.rememberTooltipPositionProvider(positioning = TooltipAnchorPosition.Below),
-                tooltip = {
-                    RichTooltip(
-                        title = { Text("Index") }
-                    ) {
-                        Text(indice.label)
-                    }
-                },
-                state = tooltipState
+            Card(
+                shape = RoundedCornerShape(5.dp),
+                modifier = Modifier.padding(60.dp)
             ) {
-                Card(
-                    shape = RoundedCornerShape(5.dp),
-                    modifier = Modifier.padding(60.dp)
-                ) {
-                    Text(
-                        modifier = Modifier.padding(10.dp),
-                        text = indice.label,
-                        fontSize = 20.sp,
-                        textAlign = TextAlign.Center
-                    )
-                }
+                Text(
+                    modifier = Modifier.padding(10.dp),
+                    text = indice.label,
+                    fontSize = 20.sp,
+                    textAlign = TextAlign.Center
+                )
             }
         }
 
